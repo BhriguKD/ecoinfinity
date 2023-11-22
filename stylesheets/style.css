@@ -359,14 +359,14 @@ footer > p > a {
 }
 
 .aram {
-  background-image: url(/image-files/ram.svg);
+  background-image: url("image-files/ram.svg");
 }
 
 .aneha {
-  background-image: url(/image-files/neha02.svg);
+  background-image: url("image-files/neha02.svg");
 }
 
 .adex {
-  background-image: url(/image-files/dex.svg);
+  background-image: url("image-files/dex.svg");
 }
 
