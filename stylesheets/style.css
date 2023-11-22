@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
 
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
   background-color: #fff;
@@ -93,11 +93,11 @@ header {
   font-size: 1.1rem;
   margin: -50px 46%;
   border-radius: 50px;
-  width: 100px;
-  height: 5vh;
+  width: 125px;
+  height: 6vh;
   background-color: #fff;
   color: #03a63c;
-  border: 1px solid #016022;
+  border: 1px solid #00852e;
   transition: all 0.15s ease 0s;
 }
 
@@ -140,6 +140,13 @@ header {
   color: #03a63c;
   font-size: 1.1rem;
   background-color: #def7e5;
+  border: 3px solid #def7e5;
+  border-radius: 10px;
+  transition: 0.15s ease;
+}
+
+.card:hover {
+  border: 3px solid #03a63c;
 }
 
 .card > h1,
@@ -152,10 +159,20 @@ header {
   margin: 50px auto;
 }
 
-.sec-page-heading {
+.sec-page-heading,
+.sec-page-heading-2 {
   text-align: center;
   margin-bottom: 100px;
   color: #03a63c;
+}
+
+.sec-page-heading-2 {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.sec-page-content {
+  margin-bottom: 50px;
 }
 
 .two {
@@ -215,11 +232,14 @@ header {
   position: fixed;
   top: 50%;
   left: 50%;
+  width: 400px;
+  height: 150px;
   transform: translate(-50%, -50%);
   padding: 20px;
   background-color: #def7e5;
-  border: 1px solid #def7e5;
+  border: 1px solid #00b333;
   z-index: 1;
+  line-height: 2rem;
 }
 
 .remove {
@@ -231,13 +251,16 @@ header {
   top: 10px;
   right: 10px;
   cursor: pointer;
+  background-color: #def7e5;
 }
 
 .loginn {
   border: 1px solid #009129;
-  border-radius: 1px;
+  border-radius: 2px;
   background-color: #fff;
-  width: 40px;
+  width: 50px;
+  margin-left: 180px;
+  padding: 5px;
 }
 
 /* PopUp Menu  */
@@ -346,3 +369,4 @@ footer > p > a {
 .adex {
   background-image: url(/image-files/dex.svg);
 }
+
