@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoInfinity.com</title>
+
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+  </head>
+  <body>
+    <header>
+      <p class="title"><a href="#top">EcoInfinity</a></p>
+
+      <nav>
+        <ul class="nav-links">
+          <li>
+            <a href="#" onclick="toggleMenu()">About</a>
+              <div class="menu" id="myMenu">
+                <a href="#">Empowering communities through education, Ecoinfinity is a dedicated force in waste management awareness.<br> We inspire sustainable practices, fostering a world where everyone plays a vital role in environmental preservation</a>
+                <button class="exit-btn" onclick="toggleMenu()">Exit</button>
+              </div>
+          </li>
+          <li>
+            <a href="#" onclick="toggleMenu2()">Contact</a>
+              <div class="menu" id="myMenu2">
+                <a href="#">
+                  Leave your suggestions here !<br>
+                  Email : ecoinfinity@mail.com
+                </a>
+                <button class="exit-btn" onclick="toggleMenu2()">Exit</button>
+              </div>
+          </li>
+          <li><a href="#methods">Learn</a></li>
+        </ul>
+      </nav>
+
+      <i onclick="toggleLoginPopup()" class="fi fi-rr-user logo"></i>
+    </header>
+
+    <div class="hero-section">
+      <p class="l-p-title">
+        Waste Less,<br> Live More...<br />
+        Join Us!
+      </p>
+
+      <span class="go-green"><img src="/image-files/18151579_5963959.svg" alt="go green"
+      /></spa>
+    </div>
+
+    <button onclick="toggleLoginPopup()" class="join">Join Now</button>
+
+    <div id="loginPopup">
+      <span class="closeBtn" onclick="toggleLoginPopup()">&times;</span>
+      <h2 class="remove">Join</h2>
+      <form class="remove" action="#" method="post">
+        <label for="username" class="remove" >Username:</label>
+        <input style="border: none;" type="text" id="username" name="username" required /><br />
+
+        <label class="remove" for="password">Password:</label>
+        <input style="border: none;" type="password" id="password" name="password" required /><br />
+
+        <input class="remove loginn" type="submit" value="Login" />
+      </form>
+    </div>
+    
+    <h1>
+
+    </h1>
+
+    <div class="slider-container">
+      <div class="slider-content">
+        <div class="card">
+          <h1>Reduce</h1>
+          <p class="slider-info">Minimize waste by using fewer resources and consuming less.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;----> </p>
+        </div>
+        <div class="card">
+          <h1>Reuse</h1>
+          <p class="slider-info">Extend the life of products by using them again, reducing the need for new items.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;----></p>
+        </div>
+        <div class="card">
+          <h1>Recycle</h1>
+          <p class="slider-info">Transform waste materials into new products to conserve resources and reduce environmental impact.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;----></p>
+        </div>
+        <div class="card">
+          <h1>Recover</h1>
+          <p class="slider-info">Extract energy or valuable materials from waste through processes like incineration or anaerobic digestion, contributing to resource efficiency.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;----<</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="second-page">
+      <h1 class="sec-page-heading">What is waste management ?</h1>
+      <p class="sec-page-content">Waste management is crucial for keeping our environment clean and healthy. It involves the collection, disposal, and recycling of waste materials to minimize their impact on nature. Proper waste management helps prevent pollution, protects wildlife, and ensures our communities stay safe. When we reduce, reuse, and recycle, we contribute to a more sustainable future. By throwing away less and recycling more, we conserve resources, reduce greenhouse gas emissions, and help combat climate change. Waste management is like taking care of our home planet, making sure it stays vibrant and beautiful for us and future generations.</p>
+    </div>
+
+    <div class="second-page two">
+      <h1 class="sec-page-heading two">What is circular economy ?</h1>
+      <p class="sec-page-content">The circular economy is like a superhero for the planet. It's a cool way of doing things that focuses on reusing, recycling, and making the most out of everything. Instead of the old "take, make, and dispose" model, the circular economy encourages us to keep things in a loop. Imagine your favorite video game where you collect items, use them, and then upgrade or trade them with others - that's the circular economy in action! It's all about reducing waste, saving energy, and making sure nothing goes to waste. By embracing the circular economy, we become Earth's allies, helping to save resources and protect our awesome home.</p>
+    </div>
+
+      <div class="slideshow-container">
+        <!-- <div class="slide">
+          <img src="/image-files/23847944_6859469.svg" alt="Slide 1" />
+        </div> -->
+        <div class="slide">
+          <img src="/image-files/13316498_5216931.svg" alt="Slide 2" />
+        </div>
+        <div class="slide">
+          <img src="/image-files/23847200_6862888.svg" alt="Slide 3" />
+        </div>
+        <!-- Add more slides as needed -->
+      </div>
+
+      <center style="margin-top: 50px;"><hr style="width: 800px; "></center>
+      <h1 id="methods" style="text-align: center; margin-top: 70px; margin-bottom: 50px;">Some Methodolody for Waste management</h1>
+
+      <div class="methods-container">
+        <div class="methods">
+          <h3>Source Separation and Recycling Initiatives</h3>
+          <p>Implementing a robust source separation program encourages individuals and businesses to categorize their waste at the point of disposal. By separating recyclables, organics, and non-recyclable materials, we create a more efficient and effective waste management system. Recycling initiatives further enhance this process by diverting materials from landfills, reducing the need for new resource extraction. Education campaigns and convenient recycling infrastructure promote awareness and participation. This approach not only conserves valuable resources but also reduces environmental pollution, contributing significantly to sustainable waste management practices.</p>
+          <img src="" alt="">
+        </div>
+        <div class="methods">
+          <h3>Circular Economy Adoption</h3>
+          <p>
+            The adoption of circular economy principles transforms the traditional linear model of "take, make, dispose" into a closed-loop system that prioritizes the longevity of resources. Businesses can design products with recyclability and reusability in mind, creating a cycle where materials are continually repurposed. This approach minimizes waste generation, reduces environmental impact, and fosters economic sustainability. Collaboration between industries, policymakers, and consumers is crucial for successfully transitioning to a circular economy, promoting responsible consumption, and preserving the environment for future generations.
+          </p>
+        </div>
+        <div class="methods">
+          <h3>Waste-to-Energy Technologies</h3>
+          <p>
+            Incorporating advanced waste-to-energy technologies provides an innovative solution to address the challenges of waste management while simultaneously generating clean energy. Processes like incineration and anaerobic digestion can convert organic waste into biogas or electricity, contributing to the diversification of the energy mix. By harnessing energy from waste, we mitigate the environmental impact of landfills, reduce greenhouse gas emissions, and contribute to a more sustainable energy future. Implementing these technologies requires investment in infrastructure and public awareness to ensure proper waste sorting and maximize the benefits of waste-to-energy initiatives. This approach aligns with the broader goal of achieving a greener and more resource-efficient society.
+          </p>
+        </div>
+      </div>
+
+      <center style="margin-top: 50px;"><hr style="width: 800px; "></center>
+      <h1 style="text-align: center; margin-top: 70px; margin-bottom: 50px;">Eco Club New Members</h1>
+      <p style="text-align: center; margin-top: -40px; margin-bottom: 50px;">Be a part our Community</p>
+
+      <div class="comments">
+        <div>
+          <h3 class="Ram" style="background-color: rgb(111, 202, 155)
+          ; margin-top: 12px; text-align: center; ">Mr. Ram<br>"For our future generations"</h3>
+          <div class="avatar aram"></div>
+        </div>
+        <div>
+          <h3 class="Neha" style="background-color: rgb(111, 202, 155)
+          ; margin-top: 12px; text-align: center;">Ms. Neha<br>"Go Green"</h3>
+          <div class="avatar aneha"></div></div>
+        <div>
+          <h3 class="Dex" style="background-color: rgb(111, 202, 155)
+          ; margin-top: 12px; text-align: center;">Dex<br>"Very Helpful"</h3>
+          <div class="avatar adex"></div></div>
+      </div>
+
+      <footer>
+        <p>&copy; 2023 EcoInfinity. All rights reserved.</p>
+        <p>Contact: ecoinfinity@mail.com </p>
+        <p style="margin: 30px auto;">Created by Bhrigu Kumar Deka, Rishikesh Mishra and Manish Kumar Vishwakarma</p>
+        <p><a href="#top">Back to Top</a></p>
+      </footer>
+
+    <script src="/index3.js"></script>
+
+  </body>
+</html>
